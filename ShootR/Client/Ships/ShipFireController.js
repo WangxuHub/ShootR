@@ -6,7 +6,7 @@ var ShootR;
         function ShipFireController(keyboard, onFire) {
             var autoFireHandle, firedAt = 0, singleFireMode = true, lastShot = 0;
 
-            keyboard.OnCommandDown("space", function () {
+            keyboard.OnCommandDown("j", function () {
                 var timeSinceFired;
 
                 firedAt = new Date().getTime();
@@ -27,7 +27,7 @@ var ShootR;
                     onFire("StartFire");
                 }
             });
-            keyboard.OnCommandUp("space", function () {
+            keyboard.OnCommandUp("j", function () {
                 var timeFireReleased;
 
                 clearTimeout(autoFireHandle);

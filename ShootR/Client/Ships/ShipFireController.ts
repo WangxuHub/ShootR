@@ -12,7 +12,7 @@ module ShootR {
                 singleFireMode: boolean = true,
                 lastShot: number = 0;
 
-            keyboard.OnCommandDown("space", () => {
+            keyboard.OnCommandDown("j", () => {
                 var timeSinceFired: number;
 
                 firedAt = new Date().getTime();
@@ -33,7 +33,7 @@ module ShootR {
                     onFire("StartFire");
                 }
             });
-            keyboard.OnCommandUp("space", () => {
+            keyboard.OnCommandUp("j", () => {
                 var timeFireReleased: number;
 
                 clearTimeout(autoFireHandle);
