@@ -33,10 +33,10 @@ namespace ShootR
             return base.OnReconnected();
         }
 
-        public override Task OnDisconnected()
+        public override Task OnDisconnected(bool stopCall)
         {
             _game.ConnectionManager.OnDisconnected(Context.ConnectionId);
-            return base.OnDisconnected();
+            return base.OnDisconnected(stopCall);
         }
 
         #endregion
