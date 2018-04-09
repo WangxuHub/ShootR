@@ -166,6 +166,7 @@
     <Content Include="Images\SpriteSheets\thrust_start.png" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\ccc.pubxml" />
     <None Include="Properties\PublishProfiles\filePublish.pubxml" />
     <Content Include="Scripts\endgate-0.2.0.js" />
     <Content Include="Scripts\endgate-0.2.0.min.js" />
