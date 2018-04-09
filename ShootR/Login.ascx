@@ -64,7 +64,7 @@
             <h2>Or</h2>
             <div class="span3">
                 <p>
-                    <asp:Button ID="FacebookLoginButton" Text="Facebook" OnClick="FacebookLoginButton_Click" runat="server" CssClass="btn btn-inverse btn-large" Width="100%" />
+                    <asp:Button ID="BtnQQ" Text="QQ" runat="server" CssClass="btn btn-inverse btn-large" Width="100%" OnClick="BtnQQ_Click" />
                 </p>
                 <p>
                     <asp:Button ID="GoogleLoginButton" Text="Google" OnClick="GoogleLoginButton_Click" runat="server" CssClass="btn btn-danger btn-large" Width="100%" />

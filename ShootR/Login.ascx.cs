@@ -28,5 +28,10 @@ namespace ShootR
         {
             Context.Request.GetOwinContext().Authentication.Challenge(new string[] { "Facebook" });
         }
+
+        protected void BtnQQ_Click(object sender, EventArgs e)
+        {
+            Context.Request.GetOwinContext().Authentication.Challenge(new string[] { "QQConnect" });
+        }
     }
 }
